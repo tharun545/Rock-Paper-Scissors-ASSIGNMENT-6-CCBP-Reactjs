@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-color: #223a5f;
+  padding: 40px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.score-card {
+  background-color: #ffffff;
+  width: 150px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.head-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-name {
+  color: #223a5f;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.score-count {
+  color: #223a5f;
+  font-family: Roboto;
+  text-align: center;
+  font-weight: 600;
+}
+
+.game-head-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border: 2px #ffffff solid;
+  border-radius: 10px;
+  width: 750px;
+}
+
+.names {
+  color: #ffffff;
+  font-family: Bree Serif;
+}
+
+.game-icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 55px;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.game-images-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.rules-btn {
+  background-color: #ffffff;
+  font-family: Bree Serif;
+  width: 70px;
+  height: 30px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-card {
+  text-align: right;
+  margin-top: 40px;
+}
+
+.rules-icon {
+  width: 650px;
+  height: 450px;
+}
+
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  text-align: center;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+.play-again {
+  background-color: #ffffff;
+  color: #223a5f;
+  font-family: Bree Serif;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  border-radius: 8px;
+}
+
+.result-view-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-result-view-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.choice-card {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
